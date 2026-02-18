@@ -1,0 +1,48 @@
+.projects {
+  padding: 80px 20px;
+}
+
+.projects-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.projects h2 {
+  font-size: 28px;
+  margin-bottom: 32px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+
+.project-card {
+  margin-bottom: 32px;
+  padding: 24px;
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.12);
+}
+
+.project-card h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.tech-stack {
+  font-size: 13px;
+  color: var(--soft);
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+
+.project-card p {
+  font-size: 15px;
+  color: var(--muted);
+}

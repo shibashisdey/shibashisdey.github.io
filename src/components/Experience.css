@@ -1,0 +1,64 @@
+.experience {
+  padding: 80px 20px;
+}
+
+.experience-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.experience h2 {
+  font-size: 28px;
+  margin-bottom: 32px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+
+.experience-item {
+  margin-bottom: 32px;
+  padding: 24px;
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.experience-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(15, 23, 42, .12);
+}
+
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.experience-header span {
+  font-size: 14px;
+  color: var(--soft);
+  font-weight: 500;
+}
+
+
+.experience-header h3 {
+  font-size: 20px;
+}
+
+.experience ul {
+  padding-left: 20px;
+}
+
+.experience li {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.experience li::marker {
+  color: var(--accent);
+}

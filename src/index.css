@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --ink: #0f172a;
+  --muted: #475569;
+  --soft: #94a3b8;
+  --accent: #0f766e;
+  --accent-strong: #0a4f49;
+  --highlight: #f97316;
+  --card: #ffffff;
+  --border: #e2e8f0;
+  --shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
+}
+
+[data-theme="dark"] {
+  --ink: #e2e8f0;
+  --muted: #cbd5f5;
+  --soft: #94a3b8;
+  --accent: #14b8a6;
+  --accent-strong: #0d9488;
+  --highlight: #fb923c;
+  --card: #0f172a;
+  --border: #1e293b;
+  --shadow: 0 20px 40px rgba(2, 6, 23, 0.45);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  background:
+    radial-gradient(800px 400px at 10% -10%, #fff7ed 0%, transparent 70%),
+    radial-gradient(900px 500px at 90% 0%, #ecfeff 0%, transparent 70%),
+    #f8fafc;
+  color: var(--ink);
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+[data-theme="dark"] body {
+  background:
+    radial-gradient(800px 400px at 10% -10%, rgba(15, 23, 42, 0.6) 0%, transparent 70%),
+    radial-gradient(900px 500px at 90% 0%, rgba(15, 118, 110, 0.25) 0%, transparent 70%),
+    #020617;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Space Grotesk", "IBM Plex Sans", "Segoe UI", sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid rgba(15, 118, 110, 0.6);
+  outline-offset: 3px;
+  border-radius: 10px;
+}
+
+[data-theme="dark"] a:focus-visible,
+[data-theme="dark"] button:focus-visible {
+  outline: 2px solid rgba(20, 184, 166, 0.7);
+}
+
+section {
+  scroll-margin-top: 90px;
+}
+
+::selection {
+  background: rgba(15, 118, 110, 0.2);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
