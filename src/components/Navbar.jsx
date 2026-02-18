@@ -76,13 +76,32 @@ const Navbar = () => {
             className="theme-toggle"
             type="button"
             onClick={handleThemeToggle}
-            aria-label="Toggle dark mode"
-          >
-            {theme === "dark" ? "Light" : "Dark"}
+            aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
+            >
+            <span className="visually-hidden">
+              {theme === "dark" ? "Light mode" : "Dark mode"}
+            </span>
+            <span className="theme-icon" aria-hidden="true">
+              {theme === "dark" ? (
+                <svg viewBox="0 0 24 24" role="presentation">
+                  <path
+                    d="M12 4.5 13.1 2 14.2 4.5 16.5 5.6 14.2 6.7 13.1 9 12 6.7 9.7 5.6 12 4.5Zm6 7.5 1.1-2.5 1.1 2.5 2.3 1.1-2.3 1.1-1.1 2.5-1.1-2.5-2.3-1.1L18 12Zm-6 1a5 5 0 1 1-5-5 5 5 0 0 1 5 5Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              ) : (
+                <svg viewBox="0 0 24 24" role="presentation">
+                  <path
+                    d="M13.5 2.6a8.9 8.9 0 1 0 7.9 12.9 7.3 7.3 0 0 1-7.9-12.9Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              )}
+            </span>
           </button>
 
           <button
-            className="nav-toggle"
+            className={`nav-toggle ${isOpen ? "is-open" : ""}`}
             type="button"
             onClick={handleToggle}
             aria-label="Toggle navigation menu"
