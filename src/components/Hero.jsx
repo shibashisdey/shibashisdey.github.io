@@ -62,16 +62,11 @@ const Hero = () => {
           <a href="#projects" className="secondary-btn">
             View Projects
           </a>
-        </div>
 
-        <a
-          href="/resume.pdf"
-          className="hero-resume"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Resume (PDF)
-        </a>
+          <a href="/resume.pdf" className="secondary-btn resume-btn" download>
+            Download Resume
+          </a>
+        </div>
       </div>
     </section>
   );

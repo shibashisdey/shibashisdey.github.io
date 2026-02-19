@@ -23,11 +23,18 @@
 }
 
 .logo {
-  font-size: 18px;
-  font-weight: 600;
-  letter-spacing: 0.3px;
+  font-family: "Space Grotesk", "IBM Plex Sans", "Segoe UI", sans-serif;
+  font-size: 23px;
+  font-weight: 800;
+  letter-spacing: 0.15px;
+  line-height: 1;
   color: var(--ink);
   cursor: pointer;
+  text-wrap: balance;
+}
+
+[data-theme="dark"] .logo {
+  color: #f1f5f9;
 }
 
 .nav-links {
@@ -155,15 +162,19 @@
   .navbar-container {
     flex-wrap: wrap;
     align-items: center;
+    padding: 10px 14px;
+    gap: 10px;
   }
 
   .logo {
     order: 1;
+    font-size: 19px;
   }
 
   .nav-actions {
     order: 2;
     margin-left: auto;
+    gap: 8px;
   }
 
   .nav-links {
@@ -171,9 +182,9 @@
     width: 100%;
     flex-direction: column;
     gap: 12px;
-    margin-top: 10px;
-    padding: 14px;
-    border: 1px solid var(--border);
+    margin-top: 0;
+    padding: 0;
+    border: 0;
     border-radius: 14px;
     background: rgba(255, 255, 255, 0.98);
     box-shadow: var(--shadow);
@@ -188,6 +199,9 @@
     max-height: 320px;
     opacity: 1;
     transform: translateY(0);
+    margin-top: 8px;
+    padding: 12px;
+    border: 1px solid var(--border);
   }
 
   .nav-toggle {

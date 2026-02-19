@@ -138,19 +138,18 @@
   box-shadow: 0 18px 30px rgba(15, 118, 110, 0.18);
 }
 
-.hero-resume {
-  display: inline-block;
-  margin-top: 18px;
-  font-size: 13px;
-  color: var(--muted);
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: all 0.2s ease;
+.resume-btn {
+  border-color: rgba(15, 118, 110, 0.35);
+  color: var(--accent-strong);
+  background: rgba(15, 118, 110, 0.08);
+  box-shadow: 0 10px 20px rgba(15, 118, 110, 0.12);
 }
 
-.hero-resume:hover {
-  color: var(--ink);
-  border-bottom: 1px solid var(--ink);
+.resume-btn:hover {
+  background-color: var(--accent-strong);
+  color: #fff;
+  border-color: var(--accent-strong);
+  box-shadow: 0 18px 30px rgba(15, 118, 110, 0.26);
 }
 
 @media (max-width: 768px) {
