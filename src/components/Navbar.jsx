@@ -67,6 +67,9 @@ const Navbar = () => {
             <a href="#experience" onClick={handleClose}>Experience</a>
           </li>
           <li>
+            <a href="#faq" onClick={handleClose}>FAQ</a>
+          </li>
+          <li>
             <a href="#contact" onClick={handleClose}>Contact</a>
           </li>
         </ul>
@@ -77,7 +80,7 @@ const Navbar = () => {
             type="button"
             onClick={handleThemeToggle}
             aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
-            >
+          >
             <span className="visually-hidden">
               {theme === "dark" ? "Light mode" : "Dark mode"}
             </span>

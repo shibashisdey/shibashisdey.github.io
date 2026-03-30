@@ -8,23 +8,28 @@ const About = () => {
         <h2>About Me</h2>
 
         <p>
-          I am a Full Stack Developer with strong expertise in backend development
-          using Java and Spring Boot, and hands-on experience building frontend
-          applications with React and Angular. I focus on designing clean REST APIs,
-          structuring efficient database schemas, and building maintainable UI components.
+          I am a freelance full stack developer with strong expertise in backend
+          development using Java and Spring Boot, and hands-on experience
+          building frontend applications with React and Angular. I focus on
+          designing clean REST APIs, structuring efficient database schemas, and
+          building maintainable UI components for real client projects.
         </p>
 
         <p>
           At CGI, I worked on enterprise banking systems where I contributed to
-          backend feature development, frontend integration, and production issue
-          resolution. My role involved end-to-end debugging across UI, API, and
-          database layers, ensuring stability and performance in live environments.
+          backend feature development, frontend integration, and production
+          issue resolution. My role involved end-to-end debugging across UI,
+          API, and database layers, ensuring stability and performance in live
+          environments.
         </p>
 
         <p>
-          I enjoy building complete end-to-end systems — from API design and database
-          modeling to frontend implementation and deployment — with a strong emphasis
-          on code quality, scalability, and real-world usability.
+          I enjoy building complete end-to-end systems from API design and
+          database modeling to frontend implementation and deployment, with a
+          strong emphasis on code quality, scalability, and real-world
+          usability. If you need a developer for a freelance project, MVP, or
+          business dashboard, this site is designed to show the kind of work I
+          do.
         </p>
       </div>
     </section>

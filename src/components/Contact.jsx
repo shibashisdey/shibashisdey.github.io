@@ -5,23 +5,26 @@ const Contact = () => {
   return (
     <section id="contact" className="contact">
       <div className="contact-container">
-        <h2>Contact</h2>
+        <h2>Hire Me for Freelance Projects</h2>
 
         <p>
-          For recruiter inquiries, reach me at shibashis.dey5@gmail.com.
-          For freelance work, reach me at workshibashisdemo@gmail.com.
+          If you need a freelance full stack developer for a web application,
+          dashboard, MVP, API integration, or ongoing product support, contact
+          me directly. I am available for remote freelance work and selective
+          long-term engagements.
         </p>
 
         <div className="contact-details">
           <p><strong>Recruiter Email:</strong> shibashis.dey5@gmail.com</p>
           <p><strong>Freelance Email:</strong> workshibashisdemo@gmail.com</p>
           <p><strong>Location:</strong> Bangalore, India</p>
-          <p><strong>Availability:</strong> Accepting new freelance work</p>
+          <p><strong>Availability:</strong> Accepting new freelance projects</p>
+          <p><strong>Work Mode:</strong> Remote and hybrid-friendly</p>
           <p>
             <strong>LinkedIn:</strong>{" "}
-            <a 
-              href="https://linkedin.com/in/shibashis-dey-151876213" 
-              target="_blank" 
+            <a
+              href="https://linkedin.com/in/shibashis-dey-151876213"
+              target="_blank"
               rel="noopener noreferrer"
             >
               linkedin.com/in/shibashis-dey-151876213
@@ -39,22 +42,6 @@ const Contact = () => {
           </p>
         </div>
 
-        {/* <div className="contact-actions">
-          <a
-            href="mailto:shibashis.dey5@gmail.com?subject=Project%20Inquiry&body=Hi%20Shibashis%2C%0A%0AI%27m%20interested%20in%20working%20with%20you%20on%20a%20project.%20Here%20are%20the%20details%3A%0A-%20Company%2FProject%20Name%3A%0A-%20Scope%2FGoals%3A%0A-%20Timeline%3A%0A-%20Budget%3A%0A%0AThanks!"
-            className="primary-btn"
-          >
-            Email Me
-          </a>
-          <a
-            href="https://linkedin.com/in/shibashis-dey-151876213"
-            className="secondary-btn"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View LinkedIn
-          </a>
-        </div> */}
         <div className="contact-actions">
           <a
             href="https://mail.google.com/mail/?view=cm&fs=1&to=shibashis.dey5@gmail.com&su=Recruiter%20Inquiry&body=Hi%20Shibashis%2C%0A%0AI%27m%20reaching%20out%20regarding%20a%20Full%20Stack%20Developer%20opportunity.%0A%0ARole%3A%0ALocation%3A%0ACompensation%3A%0AStart%20Date%3A%0A%0AThanks!"
@@ -124,7 +111,6 @@ const Contact = () => {
             GitHub
           </a>
         </div>
-
       </div>
     </section>
   );

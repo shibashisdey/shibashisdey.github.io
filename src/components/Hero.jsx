@@ -5,18 +5,18 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className="hero-container">
-        <div className="hero-eyebrow">Open to Full Stack Opportunities</div>
+        <div className="hero-eyebrow">Available for Freelance Web Projects</div>
 
-        <h1>Full Stack Developer</h1>
+        <h1>Freelance Full Stack Developer for Web Projects</h1>
 
         <h2>Spring Boot • React • Angular • REST APIs • SQL • Kubernetes</h2>
 
         <p>
-          Full Stack Developer with 2+ years of experience building
-          enterprise-grade backend systems and responsive frontend applications.
-          I deliver end-to-end solutions — from requirements to APIs, UI, and
-          production deployment — with log analysis and troubleshooting as a
-          bonus strength.
+          I help founders, startups, and businesses build backend APIs, admin
+          dashboards, customer portals, and end-to-end MVPs. With 2+ years of
+          experience in Spring Boot, React, Angular, SQL, and production
+          support, I deliver freelance full stack projects from requirements to
+          deployment.
         </p>
 
         <div className="hero-stats">
@@ -26,7 +26,7 @@ const Hero = () => {
           </div>
           <div>
             <strong>Full Stack Builds</strong>
-            <span>Spring Boot + Angular / React</span>
+            <span>Spring Boot + Angular / React freelance delivery</span>
           </div>
           <div>
             <strong>End-to-End Delivery</strong>
