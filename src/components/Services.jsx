@@ -6,11 +6,11 @@ const Services = () => {
     <section id="services" className="services">
       <div className="services-container">
         <div className="services-header">
-          <h2>Freelance Full-Stack Services</h2>
+          <h2>Services</h2>
           <p>
-            Focused on freelance project delivery, reliable systems, and clean
-            handoff. I work with founders, product teams, agencies, and small
-            businesses on both short and long-term web development work.
+            Full stack development support for founders, product teams,
+            agencies, and businesses. I take on select freelance work with a
+            focus on reliable systems, practical execution, and clean handoff.
           </p>
         </div>
 
@@ -37,7 +37,7 @@ const Services = () => {
             </p>
           </div>
           <div className="service-card">
-            <h3>Freelance MVP and Support Work</h3>
+            <h3>MVP and Support Work</h3>
             <p>
               End-to-end delivery for MVPs, feature builds, debugging, SQL
               optimization, and ongoing support after launch.
@@ -49,7 +49,7 @@ const Services = () => {
           <span>Typical engagements:</span>
           <p>
             MVP builds, internal tools, booking systems, dashboards, backend
-            API work, legacy modernization, and ongoing freelance support.
+            API work, legacy modernization, and ongoing product support.
           </p>
         </div>
       </div>

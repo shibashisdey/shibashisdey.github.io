@@ -8,11 +8,11 @@ const About = () => {
         <h2>About Me</h2>
 
         <p>
-          I am a freelance full stack developer with strong expertise in backend
+          I am a full stack developer with strong expertise in backend
           development using Java and Spring Boot, and hands-on experience
           building frontend applications with React and Angular. I focus on
           designing clean REST APIs, structuring efficient database schemas, and
-          building maintainable UI components for real client projects.
+          building maintainable UI components for real product work.
         </p>
 
         <p>
@@ -27,9 +27,9 @@ const About = () => {
           I enjoy building complete end-to-end systems from API design and
           database modeling to frontend implementation and deployment, with a
           strong emphasis on code quality, scalability, and real-world
-          usability. If you need a developer for a freelance project, MVP, or
-          business dashboard, this site is designed to show the kind of work I
-          do.
+          usability. This site is designed to show the kind of work I do across
+          products, platforms, and business applications, while also making it
+          easy to reach me for freelance projects, MVPs, or dashboard work.
         </p>
       </div>
     </section>

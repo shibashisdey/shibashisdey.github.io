@@ -5,13 +5,13 @@ const Contact = () => {
   return (
     <section id="contact" className="contact">
       <div className="contact-container">
-        <h2>Hire Me for Freelance Projects</h2>
+        <h2>Contact</h2>
 
         <p>
-          If you need a freelance full stack developer for a web application,
-          dashboard, MVP, API integration, or ongoing product support, contact
-          me directly. I am available for remote freelance work and selective
-          long-term engagements.
+          If you are hiring for a full stack role or need help with a web
+          application, dashboard, MVP, API integration, or ongoing product
+          support, contact me directly. I am open to full-time opportunities
+          and select freelance engagements.
         </p>
 
         <div className="contact-details">
