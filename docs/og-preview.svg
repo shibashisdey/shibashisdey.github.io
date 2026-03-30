@@ -1,12 +1,54 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="630" fill="#0B1220"/>
-  <circle cx="1012" cy="116" r="210" fill="#12325F"/>
-  <circle cx="145" cy="582" r="250" fill="#0E7490"/>
-  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#111A2F" stroke="#2A3D63" stroke-width="2"/>
-  <text x="96" y="190" fill="#7DD3FC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">SHIBASHIS DEY</text>
-  <text x="96" y="286" fill="#F8FAFC" font-family="Georgia, Times New Roman, serif" font-size="68" font-weight="700">Full Stack Developer</text>
-  <text x="96" y="350" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="30">Spring Boot • React • Angular • REST APIs • SQL • Kubernetes</text>
-  <text x="96" y="430" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="26">Enterprise application development, UI integration, deployment, and production support.</text>
-  <rect x="96" y="472" width="286" height="54" rx="27" fill="#0EA5E9"/>
-  <text x="136" y="507" fill="#06121E" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">shibashisdey.github.io</text>
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0f766e" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)" />
+
+  <text
+    x="80"
+    y="220"
+    font-family="Space Grotesk, Segoe UI, sans-serif"
+    font-size="56"
+    font-weight="700"
+    fill="#ffffff"
+  >
+    Shibashis Dey
+  </text>
+
+  <text
+    x="80"
+    y="300"
+    font-family="IBM Plex Sans, Segoe UI, sans-serif"
+    font-size="34"
+    fill="#e2e8f0"
+  >
+    Full Stack Developer
+  </text>
+
+  <text
+    x="80"
+    y="360"
+    font-family="IBM Plex Sans, Segoe UI, sans-serif"
+    font-size="24"
+    fill="#cbd5f5"
+  >
+    Spring Boot • React • Angular • SQL • Kubernetes
+  </text>
+
+  <text
+    x="80"
+    y="480"
+    font-family="IBM Plex Sans, Segoe UI, sans-serif"
+    font-size="22"
+    fill="#94a3b8"
+  >
+    Building scalable backend systems and modern web applications
+  </text>
+
+  <circle cx="1050" cy="120" r="80" fill="#f97316" opacity="0.9" />
+  <rect x="950" y="300" width="200" height="200" rx="24" fill="#ffffff" opacity="0.05" />
 </svg>
